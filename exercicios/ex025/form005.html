@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckBox & Radio Button</title>
+</head>
+<body>
+    <h1>CheckBox & Radio Button</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+        <fieldset>
+            <legend>Idade</legend>
+            <input type="radio" name="idade" id="icri"> <label for="icri">0-12 Anos</label> <br>
+            <input type="radio" name="idade" id="ijov"> <label for="ijov">13-17 Anos</label> <br>
+            <input type="radio" name="idade" id="iadu"> <label for="iadu"> +18</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas"> <label for="imas">Masculino</label>
+            <input type="radio" name="sexo" id="ifem"> <label for="ifem">Feminino</label>
+            <input type="radio" name="sexo" id="iout"> <label for="iout">Outros</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="esfut" id="iesfut"> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="esbas" id="iesbas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol"> <label for="iesvol">Volei</label> <br>
+            <input type="checkbox" name="esnat" id="iesnat"> <label for="iesnat">Natação</label> <br>
+            <input type="checkbox" name="esten" id="iesten"> <label for="iesten">Tênis</label>  <br>
+            <input type="checkbox" name="esf1" id="iesf1"> <label for="iesf1">Formula 1</label>
+        </fieldset>
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+    
+</body>
+</html>
