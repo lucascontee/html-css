@@ -21,11 +21,12 @@ header > h1{
 
 i#burguer{
     background-color: rgb(53, 53, 53);
-    width: 100vw;
+    width: 100%;
     display: block;
     color: white;
     text-align: center;
     padding: 10px;
+    padding-left: 0px;
     cursor: pointer;
 }
 
